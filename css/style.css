@@ -42,6 +42,10 @@ nav ul li:hover {}
 
 #big-image {
     background-image: url('https://c.pxhere.com/photos/ea/ef/photo-1404178.jpg!d');
+    /*
+    I get the image from pxhere public domain image
+   https://pxhere.com/es/photo/1404178
+    */
     background-size: cover;
     background-position: center;
     min-height: 350px;
@@ -107,6 +111,6 @@ button {
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: rgb(1, 124, 165);
+        background-color: #CCC;
     }
 }
