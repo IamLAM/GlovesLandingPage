@@ -1,0 +1,51 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#products {
+    margin-top: 50px;
+}
+
+#videos {
+    margin-top: 200px;
+    text-align: center;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(1, 124, 165);
+    }
+}
