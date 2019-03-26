@@ -26,6 +26,19 @@ nav ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #008080;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+nav ul li:hover {}
+
 #big-image {
     background-image: url('https://c.pxhere.com/photos/ea/ef/photo-1404178.jpg!d');
     background-size: cover;
