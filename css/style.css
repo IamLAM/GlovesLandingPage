@@ -26,22 +26,68 @@ nav ul {
     list-style: none;
 }
 
-#products {
-    margin-top: 50px;
+#big-image {
+    background-image: url('https://c.pxhere.com/photos/ea/ef/photo-1404178.jpg!d');
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
 }
 
-#videos {
-    margin-top: 200px;
+#products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
+    background-color: #ccc;
+    padding: 50px;
 }
 
 main {
-    padding-left: 5%;
-    padding-right: 5%;
+    text-align: center;
+    padding: 8%;
 }
 
 footer {
     text-align: center;
+    margin: 20px;
+}
+
+#contact {
+    text-align: center;
+    background-color: #ccc;
+    padding: 50px;
+}
+
+#about {
+    text-align: center;
+    padding: 50px;
+    background-color: #008080;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 200px;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#prod1,
+#prod2,
+#prod3 {
+    border-style: solid;
+    border-color: #008080;
+    padding: 20px;
+    margin: 5px;
+}
+
+#submit {
+    background-color: #008080;
+    color: white;
+    font-size: 19px;
 }
 
 @media only screen and (max-width: 600px) {
